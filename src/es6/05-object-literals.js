@@ -14,6 +14,7 @@ function newUser(user,age,country,uId){
 //Imprimir Usuario
 console.log(newUser("gndx",34,"MX",1));
 
+
 function User(user, age, country, uId) {
     this.user = user;
     this.age = age;

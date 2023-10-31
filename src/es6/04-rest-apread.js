@@ -2,14 +2,14 @@
 //arrays destructuring
 
 let fruits = ["apple", "banana"];
-let [a, b] = fruits;
+let [a, b] = fruits; //asignando appel y banana a las variables a y b
 
 console.log(a, fruits[1]);
 
 //Object destructuring
 
 let user = { username: "Cris", age: 20 };
-let { username, age } = user;
+let { username, age } = user; //Almacenando los valores del objeto en otras variables
 console.log(username, user.age);
 
 // Destructuring for-of loop
@@ -60,8 +60,3 @@ function solution(
 ) {
   return { ...json1, ...json2 };
 }
-
-console.log(solution({
-    name: "Bigotes",
-    food: "Pollito"
-}));

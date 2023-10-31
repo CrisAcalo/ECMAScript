@@ -1,4 +1,4 @@
-//Declaracion de una clase
+//Class declaration
 class User {
 
 }
@@ -41,14 +41,19 @@ class user{
     }
 
     greeting(){
-        return `Hello ${this.name}`;
+        return `Hello ${this.name}, you have ${this.age} years old.`;
     }
 
-    set uAge(){
-        return this.age;
+    set uAge(n){
+        this.age = n;
     }
 
     get uAge(){
         return this.age;
     }
 }
+
+const  user2 = new user('Cris',20);
+console.log(user2.greeting());
+user2.uAge = 21;
+console.log(user2.greeting());
