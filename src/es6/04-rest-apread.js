@@ -7,7 +7,7 @@ let [a, b] = fruits; //asignando appel y banana a las variables a y b
 console.log(a, fruits[1]);
 
 //Object destructuring
-
+//Rest operator
 let user = { username: "Cris", age: 20 };
 let { username, age } = user; //Almacenando los valores del objeto en otras variables
 console.log(username, user.age);
